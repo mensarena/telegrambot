@@ -28,7 +28,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Telegram Bot Token - Replace with your actual token
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Telegram Group ID - Replace with your actual group ID
 FORWARD_GROUP_ID = os.getenv("FORWARD_GROUP_ID")  # e.g., -1001234567890
